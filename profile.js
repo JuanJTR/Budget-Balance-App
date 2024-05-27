@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!localStorage.getItem('loggedInUser')) {
             
             // Si no está logueado, redirigir a index.html
-            window.location.href = '../pages/index.html';
+            window.location.href = 'index.html';
         }else{
             try {
             } catch (error) {
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
             localStorage.removeItem('loggedInUser');
             localStorage.removeItem('loggedInUserData');
             console.log("Logout clicked");
-            window.location.href = '../pages/index.html'; // Redirect to login or home page after logout
+            window.location.href = 'index.html'; // Redirect to login or home page after logout
         });
     }
 });
