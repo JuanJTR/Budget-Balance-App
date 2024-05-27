@@ -89,6 +89,42 @@ body{
     color: white;
 }
 
+@media (max-width:500px) {
+
+    .btn-logout{
+        display: none;
+        padding-block: 3px;
+        padding-inline: 3px;
+    }
+}
+@media (max-width:300px) {
+    .navbar .div-btn-git{
+        padding: 0px;
+        justify-content: end;
+    }
+    .navbar .div-container-btn{
+        padding: 0;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .navbar .div-title{
+        /* color: white; */
+        width: 30%;
+        min-width: 80px;
+        margin-inline: 0px;
+        padding-inline: 0px;
+    }
+    .btn-logout{
+        display: none;
+        padding-block: 3px;
+        padding-inline: 3px;
+    }
+    .div-logout{
+        /* display: none; */
+        padding-block: 0px;
+        padding-inline: 0px;
+    }
+}
 /* .profile{
     /* border: none;
     display: flex;
