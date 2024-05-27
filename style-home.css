@@ -169,6 +169,11 @@ td {
         width: 90%;
     }
 }
+@media (max-width:415px) {
+    .div-input-tabel{
+        width: 95%;
+    }
+}
 /* .styled-table tbody tr.active-row {
     font-weight: bold;
     color: #009879;
